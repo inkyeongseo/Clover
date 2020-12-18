@@ -1,0 +1,30 @@
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="title"
+            android:gravity="center|left"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/msg" />
+        <!--        android:adjustViewBounds="true" 뷰 사이즈로 이미지를 키워줌, 그리고 이미지 비율을 유지하며 맞춤-->
+        <!--        android:maxHeight="600dp 는 adjustViewBounds 써야 유효하다. -->
+ </RelativeLayout>
+
