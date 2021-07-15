@@ -12,6 +12,7 @@
             android:textColor="#555555"
             android:textStyle="bold"
             android:textSize="25sp"
+            android:fontFamily="@font/tmoneyroundwindregular"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="5dp"/>
 
